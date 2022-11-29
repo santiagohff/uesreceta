@@ -1,0 +1,174 @@
+body{
+    background-color: #DDE5B6; 
+}
+.body-inicio{
+    overflow: hidden;
+}
+
+.barra{
+    font-family: 'Lato', sans-serif;
+    font-size: 28px;
+    list-style: none;
+    text-decoration: none;
+    margin-top: 20px;
+    background-color: #6C584C;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+}
+
+.logo-nav{
+    margin-left: 20px;
+    width: 85px;
+    height: 85px;
+}
+.redes{
+    margin-right:5px ;
+    color: #A98467;
+}
+
+.barra li{
+    display: inline;
+    text-align: center;
+    padding: 2px;
+    background-color: #A98467;
+    border-radius: 12%;
+}
+
+.barra li a{
+    text-decoration:none;
+    color: rgb(8, 8, 8);
+}
+
+.barra li:hover{
+background-color: #ADC178;
+}
+
+.descripcion{
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: rgb(24, 23, 23);
+}
+
+.lista-desayuno{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    
+}
+
+.imagen{
+    margin: 8px;
+    border-style: solid;
+    border-color: #6C584C;
+    border-radius: 25px;
+    border-width: 6px;
+}
+
+
+/* Desayunos */
+.bodyDesayunos{
+    background-color: #DDE5B6;
+}
+.titulos{
+    font-size: 75px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: center;
+    padding: none;
+    margin: 10px;
+}
+#tDesayuno{
+    background-color: #F0EAD2;
+}
+#tcomida{
+    background-color: #F26A8D;
+}
+#tcena{
+    background-color: #CBEEF3;
+}
+#tpostre{
+    background-color: #E0C3FC;
+}
+/* aqui esta el diseño del slider del inicio */
+.slider{
+width: 95%;
+margin: auto;
+overflow: hidden;
+
+}
+
+.slider ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+
+   animation: cambio 18s infinite alternate;
+}
+.slider li{
+    width: 100%;
+    list-style: none;
+   
+}
+
+.slider img{
+width: 100%;
+height: 50%;
+object-fit: cover;
+}
+
+@keyframes cambio{
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+    
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+    
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+    
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+
+
+}
+
+.titulo-slider{
+    color: #060606;
+    font-family: 'Rubik', sans-serif;
+    font-size: 70px
+}
+
+
+
+/*aqui empiezaos estios de las recetas finales  */
+.imagen-recetaFinal{
+width: 500px;
+height: 300px;
+padding: 15px;
+object-fit: cover;
+display: flex;
+justify-content: center;
+border-radius:8% ;
+
+}
+
+.lista-ingredientes{
+    text-decoration: none;
+    list-style: none;
+}
+
+.titulo-recetaFinal{
+    color: #854823;
+    
+}
+.titulo-instruccion{
+    color: rgb(91, 139, 9);
+}
+
+
+
+
+
+
